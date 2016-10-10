@@ -1,0 +1,13 @@
+E:\projects\MyBlog\MyBlog.Repository\bin\Debug\MyBlog.Repository.dll.config
+E:\projects\MyBlog\MyBlog.Repository\bin\Debug\MyBlog.Repository.dll
+E:\projects\MyBlog\MyBlog.Repository\bin\Debug\MyBlog.Repository.pdb
+E:\projects\MyBlog\MyBlog.Repository\bin\Debug\EntityFramework.dll
+E:\projects\MyBlog\MyBlog.Repository\bin\Debug\EntityFramework.SqlServer.dll
+E:\projects\MyBlog\MyBlog.Repository\bin\Debug\MyBlog.IRepository.dll
+E:\projects\MyBlog\MyBlog.Repository\bin\Debug\MyBlog.Model.dll
+E:\projects\MyBlog\MyBlog.Repository\bin\Debug\MySql.Data.dll
+E:\projects\MyBlog\MyBlog.Repository\bin\Debug\MySql.Data.Entity.EF6.dll
+E:\projects\MyBlog\MyBlog.Repository\bin\Debug\MyBlog.IRepository.pdb
+E:\projects\MyBlog\MyBlog.Repository\bin\Debug\MyBlog.Model.pdb
+E:\projects\MyBlog\MyBlog.Repository\bin\Debug\EntityFramework.xml
+E:\projects\MyBlog\MyBlog.Repository\bin\Debug\EntityFramework.SqlServer.xml

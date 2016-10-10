@@ -1,0 +1,13 @@
+E:\projects\MyBlog\MyBlog.Services\bin\Debug\MyBlog.Services.dll
+E:\projects\MyBlog\MyBlog.Services\bin\Debug\MyBlog.Services.pdb
+E:\projects\MyBlog\MyBlog.Services\bin\Debug\MyBlog.IRepository.dll
+E:\projects\MyBlog\MyBlog.Services\bin\Debug\MyBlog.IServices.dll
+E:\projects\MyBlog\MyBlog.Services\bin\Debug\MyBlog.Model.dll
+E:\projects\MyBlog\MyBlog.Services\bin\Debug\MyBlog.Repository.dll
+E:\projects\MyBlog\MyBlog.Services\bin\Debug\EntityFramework.dll
+E:\projects\MyBlog\MyBlog.Services\bin\Debug\MyBlog.IRepository.pdb
+E:\projects\MyBlog\MyBlog.Services\bin\Debug\MyBlog.IServices.pdb
+E:\projects\MyBlog\MyBlog.Services\bin\Debug\MyBlog.Model.pdb
+E:\projects\MyBlog\MyBlog.Services\bin\Debug\MyBlog.Repository.pdb
+E:\projects\MyBlog\MyBlog.Services\bin\Debug\EntityFramework.xml
+E:\projects\MyBlog\MyBlog.Services\bin\Debug\zh-Hans\EntityFramework.resources.dll
