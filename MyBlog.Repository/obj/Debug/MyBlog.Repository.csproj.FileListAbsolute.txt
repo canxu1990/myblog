@@ -11,3 +11,9 @@ E:\projects\MyBlog\MyBlog.Repository\bin\Debug\MyBlog.IRepository.pdb
 E:\projects\MyBlog\MyBlog.Repository\bin\Debug\MyBlog.Model.pdb
 E:\projects\MyBlog\MyBlog.Repository\bin\Debug\EntityFramework.xml
 E:\projects\MyBlog\MyBlog.Repository\bin\Debug\EntityFramework.SqlServer.xml
+E:\projects\MyBlog\MyBlog.WebUI\bin\MyBlog.Repository.dll.config
+E:\projects\MyBlog\MyBlog.WebUI\bin\MyBlog.Repository.dll
+E:\projects\MyBlog\MyBlog.WebUI\bin\MyBlog.Repository.pdb
+E:\projects\MyBlog\MyBlog.Repository\obj\Debug\MyBlog.Repository.csprojResolveAssemblyReference.cache
+E:\projects\MyBlog\MyBlog.Repository\obj\Debug\MyBlog.Repository.dll
+E:\projects\MyBlog\MyBlog.Repository\obj\Debug\MyBlog.Repository.pdb

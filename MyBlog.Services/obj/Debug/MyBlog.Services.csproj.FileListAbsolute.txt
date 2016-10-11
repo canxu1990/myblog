@@ -11,3 +11,8 @@ E:\projects\MyBlog\MyBlog.Services\bin\Debug\MyBlog.Model.pdb
 E:\projects\MyBlog\MyBlog.Services\bin\Debug\MyBlog.Repository.pdb
 E:\projects\MyBlog\MyBlog.Services\bin\Debug\EntityFramework.xml
 E:\projects\MyBlog\MyBlog.Services\bin\Debug\zh-Hans\EntityFramework.resources.dll
+E:\projects\MyBlog\MyBlog.WebUI\bin\MyBlog.Services.dll
+E:\projects\MyBlog\MyBlog.WebUI\bin\MyBlog.Services.pdb
+E:\projects\MyBlog\MyBlog.Services\obj\Debug\MyBlog.Services.csprojResolveAssemblyReference.cache
+E:\projects\MyBlog\MyBlog.Services\obj\Debug\MyBlog.Services.dll
+E:\projects\MyBlog\MyBlog.Services\obj\Debug\MyBlog.Services.pdb

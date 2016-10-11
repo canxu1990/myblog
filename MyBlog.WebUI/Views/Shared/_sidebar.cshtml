@@ -1,0 +1,40 @@
+﻿@{
+    string url = Request.Url.ToString().ToLower();
+}
+<style>
+    .menu li{
+        background-color:#777777;
+    }
+</style>
+@if (url.Contains("home"))
+{
+    <aside class="col-sm-3 col-md-2 sidebar">
+        <nav class="menu" data-toggle="menu" style="width: 200px">
+            <button class="btn btn-primary"><i class="icon-edit"></i> CREATE</button>
+            <button class="btn"><i class="icon-cloud-upload"></i> UPLOAD</button>
+            <ul style="background-color:black" class="nav nav-primary">
+                <li ><a href="javascript:;"><i class="icon-th"></i> 系统管理</a></li>
+                <li><a href="javascript:;"><i class="icon-user"></i> 访问统计</a></li>
+                <li class="nav-parent">
+                    <a href="javascript:;"><i class="icon-time"></i> Time</a>
+                    <ul class="nav">
+                        <li><a href="javascript:;">Today</a></li>
+                        <li><a href="javascript:;">Tomarrow</a></li>
+                        <li><a href="javascript:;">Yestorday</a></li>
+                        <li><a href="javascript:;">This Week</a></li>
+                    </ul>
+                </li>
+                <li><a href="javascript:;"><i class="icon-trash"></i> Trash</a></li>
+                <li><a href="javascript:;"><i class="icon-list-ul"></i> All</a></li>
+                <li class="active show nav-parent">
+                    <a href="javascript:;"><i class="icon-tasks"></i> Status</a>
+                    <ul class="nav">
+                        <li><a href="javascript:;"><i class="icon-circle-blank"></i> Ready</a></li>
+                        <li class="active"><a href="javascript:;"><i class="icon-play-sign"></i> Ongoing</a></li>
+                        <li><a href="javascript:;"><i class="icon-ok-sign"></i> Completed</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </aside>
+}

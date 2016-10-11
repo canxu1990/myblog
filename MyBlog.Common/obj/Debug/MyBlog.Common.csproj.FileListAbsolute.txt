@@ -1,0 +1,11 @@
+E:\projects\MyBlog\MyBlog.Common\bin\Debug\NLog.config
+E:\projects\MyBlog\MyBlog.Common\bin\Debug\MyBlog.Common.dll
+E:\projects\MyBlog\MyBlog.Common\bin\Debug\MyBlog.Common.pdb
+E:\projects\MyBlog\MyBlog.Common\bin\Debug\Newtonsoft.Json.dll
+E:\projects\MyBlog\MyBlog.Common\bin\Debug\NLog.dll
+E:\projects\MyBlog\MyBlog.Common\bin\Debug\StackExchange.Redis.dll
+E:\projects\MyBlog\MyBlog.Common\bin\Debug\Newtonsoft.Json.xml
+E:\projects\MyBlog\MyBlog.Common\bin\Debug\NLog.xml
+E:\projects\MyBlog\MyBlog.Common\bin\Debug\StackExchange.Redis.xml
+E:\projects\MyBlog\MyBlog.Common\obj\Debug\MyBlog.Common.dll
+E:\projects\MyBlog\MyBlog.Common\obj\Debug\MyBlog.Common.pdb

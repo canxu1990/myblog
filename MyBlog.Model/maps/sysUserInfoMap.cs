@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MyBlog.Model.Entity;
+using System;
 using System.Collections.Generic;
 using System.Data.Entity.ModelConfiguration;
 using System.Linq;

@@ -1,0 +1,15 @@
+E:\projects\MyBlog\MyBlog.Model\bin\Debug\MyBlog.Model.dll.config
+E:\projects\MyBlog\MyBlog.Model\bin\Debug\MyBlog.Model.dll
+E:\projects\MyBlog\MyBlog.Model\bin\Debug\MyBlog.Model.pdb
+E:\projects\MyBlog\MyBlog.Model\bin\Debug\EntityFramework.dll
+E:\projects\MyBlog\MyBlog.Model\bin\Debug\EntityFramework.SqlServer.dll
+E:\projects\MyBlog\MyBlog.Model\bin\Debug\MySql.Data.dll
+E:\projects\MyBlog\MyBlog.Model\bin\Debug\MySql.Data.Entity.EF6.dll
+E:\projects\MyBlog\MyBlog.Model\bin\Debug\EntityFramework.xml
+E:\projects\MyBlog\MyBlog.Model\bin\Debug\EntityFramework.SqlServer.xml
+E:\projects\MyBlog\MyBlog.Model\bin\Debug\zh-Hans\EntityFramework.resources.dll
+E:\projects\MyBlog\MyBlog.Model\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+E:\projects\MyBlog\MyBlog.Model\obj\Debug\MyBlog.Model.Migrations.LogTable.resources
+E:\projects\MyBlog\MyBlog.Model\obj\Debug\MyBlog.Model.csproj.GenerateResource.Cache
+E:\projects\MyBlog\MyBlog.Model\obj\Debug\MyBlog.Model.dll
+E:\projects\MyBlog\MyBlog.Model\obj\Debug\MyBlog.Model.pdb

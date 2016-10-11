@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using MyBlog.IServices;
 using MyBlog.IRepository;
+using MyBlog.Model.Entity;
 
 namespace MyBlog.Services
 {

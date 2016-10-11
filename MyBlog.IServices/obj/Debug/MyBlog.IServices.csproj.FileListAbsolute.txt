@@ -1,0 +1,10 @@
+E:\projects\MyBlog\MyBlog.IServices\bin\Debug\MyBlog.IServices.dll
+E:\projects\MyBlog\MyBlog.IServices\bin\Debug\MyBlog.IServices.pdb
+E:\projects\MyBlog\MyBlog.IServices\bin\Debug\MyBlog.Model.dll
+E:\projects\MyBlog\MyBlog.IServices\bin\Debug\EntityFramework.dll
+E:\projects\MyBlog\MyBlog.IServices\bin\Debug\MyBlog.Model.pdb
+E:\projects\MyBlog\MyBlog.IServices\bin\Debug\EntityFramework.xml
+E:\projects\MyBlog\MyBlog.IServices\bin\Debug\zh-Hans\EntityFramework.resources.dll
+E:\projects\MyBlog\MyBlog.IServices\obj\Debug\MyBlog.IServices.csprojResolveAssemblyReference.cache
+E:\projects\MyBlog\MyBlog.IServices\obj\Debug\MyBlog.IServices.dll
+E:\projects\MyBlog\MyBlog.IServices\obj\Debug\MyBlog.IServices.pdb

@@ -1,45 +1,93 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - 我的 ASP.NET 应用程序</title>
-    @Styles.Render("~/Content/css")
-    @Scripts.Render("~/bundles/modernizr")
-
+    <title>@ViewBag.Title - 博客系统后台管理</title>
+        @Scripts.Render("~/bundles/jquery")
+        <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    @Styles.Render("~/Content/CSS")
+    <link href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+    <link href="~/Content/CSS/zui-theme.css" rel="stylesheet" />
+    <link href="~/Content/CSS/zui.css" rel="stylesheet" />
+    <style>
+        #main{
+            background-color: #fff;
+            box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.1);
+            height: calc(100% - 70px);
+            max-width: 100%;
+            overflow: auto;
+            padding: 20px 10px;
+            margin-left:260px;
+        }
+    </style>
+    <!--[if lt IE 9]>
+    <script src="http://libs.useso.com/js/html5shiv/3.7/html5shiv.min.js"></script>
+    <script src="http://libs.useso.com/js/respond.js/1.4.2/respond.min.js"></script>
+    <script src="lib/ieonly/excanvas.js"></script>
+    <![endif]-->
+    <script>
+        var ss;
+        var colleft;
+        var main;
+        window.onload = function () {
+            var w = document.documentElement.clientWidth;//可见区域宽度
+            var h = document.documentElement.clientHeight;//可见区域高度
+            ss = document.getElementById('content');
+            colleft = document.getElementById('col-left');
+            main = document.getElementById('main');
+            //alert(w);
+            ss.style.height = h-72 + "px";
+            colleft.style.height = h - 72 + "px";
+            main.style.height = h - 200 + 'px';
+        }
+    </script>
 </head>
-<body>
-    <div class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
+<body style="padding-top:0">
+    <header class="bg-primary" style="height: 42px;">
+        <div class="navbar navbar-inverse" role="navigation">
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                @*移动设备上的导航按钮切换*@
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse-example">
+                    <span class="sr-only">切换导航</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                @Html.ActionLink("应用程序名称", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                <!--品牌名称或logo-->
+                <a class="navbar-brand">系统后台</a>
             </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("主页", "Index", "Home")</li>
-                    <li>@Html.ActionLink("关于", "About", "Home")</li>
-                    <li>@Html.ActionLink("联系方式", "Contact", "Home")</li>
+            <div class="collapse navbar-collapse navbar-collapse-example">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a><i class="icon icon-user"></i>&nbsp;&nbsp;您好，admin</a></li>
+                    <li><a><i class="icon icon-exchange"></i>&nbsp;&nbsp;隐藏菜单</a></li>
+                    <li><a href="/admin/Home"><i class="icon icon-home"></i>&nbsp;&nbsp;首页</a></li>
+                    <li><a><i class="icon icon-question-sign"></i>&nbsp;&nbsp;帮助</a></li>
+                    <li><a><i class="icon icon-off"></i>&nbsp;&nbsp;退出</a></li>
                 </ul>
-                @Html.Partial("_LoginPartial")
             </div>
         </div>
-    </div>
-    <div class="container body-content">
+    </header>
+    @*content*@
+    <div id="content">
+        <div id="col-left" class="leftcontent bg-primary" style="background-color:#333333;width:250px;float:left">
+            @Html.Partial("_sidebar")
+        </div>
+        
+    <div class="maincontent" style="margin-top:0;background-color:#EEEEEE;">
         @RenderBody()
-        <hr />
-        <footer>
-            <p>&copy; @DateTime.Now.Year - 我的 ASP.NET 应用程序</p>
-        </footer>
     </div>
+                
 
-    @Scripts.Render("~/bundles/jquery")
+    </div>
+    @*foot*@
+    <footer class="col-md-12 footer footerstyle">
+        <p>&copy; @DateTime.Now.Year - 我的博客系统</p>
+    </footer>    
     @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/bundles/zui")
     @RenderSection("scripts", required: false)
 </body>
 </html>
+

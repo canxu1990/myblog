@@ -1,11 +1,12 @@
 ﻿namespace MyBlog.Model
 {
+    using Entity;
     using System;
     using System.Data.Entity;
     using System.Data.Entity.ModelConfiguration.Conventions;
     using System.Linq;
     using System.Reflection;
-
+    //[DbConfigurationType(typeof(MySql.Data.Entity.MySqlEFConfiguration))]
     public class MyBlogDB : DbContext
     {
         //您的上下文已配置为从您的应用程序的配置文件(App.config 或 Web.config)
@@ -28,6 +29,7 @@
         //为您要在模型中包含的每种实体类型都添加 DbSet。有关配置和使用 Code First  模型
         //的详细信息，请参阅 http://go.microsoft.com/fwlink/?LinkId=390109。
         public DbSet<sysUserInfo> sysUserInfo { get; set; }
+        public DbSet<BlogArticle> BlogArticle { get; set; }
         // public virtual DbSet<MyEntity> MyEntities { get; set; }
     }
 

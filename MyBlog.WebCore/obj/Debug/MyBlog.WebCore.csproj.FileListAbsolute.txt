@@ -1,0 +1,17 @@
+E:\projects\MyBlog\MyBlog.WebCore\bin\Debug\NLog.config
+E:\projects\MyBlog\MyBlog.WebCore\bin\Debug\MyBlog.WebCore.dll
+E:\projects\MyBlog\MyBlog.WebCore\bin\Debug\MyBlog.WebCore.pdb
+E:\projects\MyBlog\MyBlog.WebCore\bin\Debug\MyBlog.Common.dll
+E:\projects\MyBlog\MyBlog.WebCore\bin\Debug\Newtonsoft.Json.dll
+E:\projects\MyBlog\MyBlog.WebCore\bin\Debug\System.Web.Mvc.dll
+E:\projects\MyBlog\MyBlog.WebCore\bin\Debug\NLog.dll
+E:\projects\MyBlog\MyBlog.WebCore\bin\Debug\StackExchange.Redis.dll
+E:\projects\MyBlog\MyBlog.WebCore\bin\Debug\MyBlog.Common.pdb
+E:\projects\MyBlog\MyBlog.WebCore\bin\Debug\Newtonsoft.Json.xml
+E:\projects\MyBlog\MyBlog.WebCore\bin\Debug\System.Web.Mvc.xml
+E:\projects\MyBlog\MyBlog.WebCore\bin\Debug\NLog.xml
+E:\projects\MyBlog\MyBlog.WebCore\bin\Debug\StackExchange.Redis.xml
+E:\projects\MyBlog\MyBlog.WebCore\bin\Debug\zh-Hans\System.Web.Mvc.resources.dll
+E:\projects\MyBlog\MyBlog.WebCore\obj\Debug\MyBlog.WebCore.csprojResolveAssemblyReference.cache
+E:\projects\MyBlog\MyBlog.WebCore\obj\Debug\MyBlog.WebCore.dll
+E:\projects\MyBlog\MyBlog.WebCore\obj\Debug\MyBlog.WebCore.pdb

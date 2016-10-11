@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using MyBlog.IRepository;
+using MyBlog.Model.Entity;
 
 namespace MyBlog.Repository
 {
