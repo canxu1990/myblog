@@ -30,6 +30,7 @@
         //的详细信息，请参阅 http://go.microsoft.com/fwlink/?LinkId=390109。
         public DbSet<sysUserInfo> sysUserInfo { get; set; }
         public DbSet<BlogArticle> BlogArticle { get; set; }
+        public DbSet<Advertisement> Advertisement { get; set; }
         // public virtual DbSet<MyEntity> MyEntities { get; set; }
     }
 

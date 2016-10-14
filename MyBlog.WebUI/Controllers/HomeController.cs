@@ -7,6 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using Webdiyer.WebControls.Mvc;
 
 namespace MyBlog.WebUI.Controllers
 {
@@ -14,42 +15,43 @@ namespace MyBlog.WebUI.Controllers
     public class HomeController : BaseController
     {
         IsysUserInfoServices userinfoservice;
-        public HomeController(IsysUserInfoServices userinfos)
+        IBlogArticleServices blogArticleServive;
+        IAdvertisementServices advertisementServices;
+        public HomeController(IsysUserInfoServices userinfos, IBlogArticleServices blogArticleServive, IAdvertisementServices advertisementServices)
         {
             this.userinfoservice = userinfos;
+            this.blogArticleServive = blogArticleServive;
+            this.advertisementServices = advertisementServices;
         }
-        public ActionResult Index()
+       
+        public ActionResult Index(int pageIndex=1)
         {
-            //try
-            //{
-                //for (int i = 0; i < 10; i++)
-                //{
-                //    userinfoservice.Add(new sysUserInfo()
-                //    {
-                //        uLoginName = "admin" + i,
-                //        uLoginPWD = "123456",
-                //        uRealName = "超级管理员" + i,
-                //        uCreateTime = DateTime.Now,
-                //        uUpdateTime = DateTime.Now,
-                //        uRemark = "测试添加功能"
+            //获取控制器名称
+            ViewBag.controllername = RouteData.Values["controller"].ToString().ToLower();
+            int pageSize = 6;
+            //获取发布博文信息
+            var blogArticleList = blogArticleServive.QueryWhere(p => true).OrderByDescending(p => p.bCreateTime).ToPagedList(pageIndex, pageSize);
+            foreach (var item in blogArticleList)
+            {
+                if (!string.IsNullOrWhiteSpace(item.bcontent))
+                {
+                    item.bcontent = Server.HtmlDecode(item.bcontent);
+                    if (item.bcontent.Length > 100)
+                    {
+                        item.bcontent = item.bcontent.Substring(0, 200);
+                    }
+                }
+            }
+            //获取轮播广告新
+            ViewBag.adList = advertisementServices.QueryOrderBy(a => true, a => a.Createdate, false).ToPagedList(1, 3);
+            //发布时间排序
+            ViewBag.blogtimelist = blogArticleServive.QueryOrderBy(p => true, p => p.bCreateTime, false);
+            //评论排序
+            ViewBag.blogtrafficlist = blogArticleServive.QueryOrderBy(p => true, p => p.btraffic, false);
+            //留言排序
+            //string sql = @"select a.* b.btitle  from(select blogId,count(1) as counts from Guestbook group by blogId) as a inner join BlogArticle as b on b.bID=a.blogId order by counts desc";
 
-                //    });
-                //}
-                //userinfoservice.SaverChanges();
-                //userinfoservice.QueryWhere(p => p.uID == 1);
-                //int i = 1;
-                //int b = 0;
-                //int c;
-                //c = i / b;
-
-                return View();
-                //return Content(userinfoservice.QueryWhere(p => p.uID == 1).FirstOrDefault().uLoginName);
-            //}
-            //catch (Exception ex)
-            //{
-
-              //  return Content("错误提示：" + ex.Message); ;
-            //}
+            return View(blogArticleList);
         }
 
         public ActionResult About()

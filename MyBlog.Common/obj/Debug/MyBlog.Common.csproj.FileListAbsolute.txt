@@ -9,3 +9,4 @@ E:\projects\MyBlog\MyBlog.Common\bin\Debug\NLog.xml
 E:\projects\MyBlog\MyBlog.Common\bin\Debug\StackExchange.Redis.xml
 E:\projects\MyBlog\MyBlog.Common\obj\Debug\MyBlog.Common.dll
 E:\projects\MyBlog\MyBlog.Common\obj\Debug\MyBlog.Common.pdb
+E:\projects\MyBlog\MyBlog.Common\obj\Debug\MyBlog.Common.csprojResolveAssemblyReference.cache

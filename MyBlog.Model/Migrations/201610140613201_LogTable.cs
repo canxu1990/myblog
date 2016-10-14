@@ -8,6 +8,17 @@ namespace MyBlog.Model.Migrations
         public override void Up()
         {
             CreateTable(
+                "dbo.Advertisement",
+                c => new
+                    {
+                        aID = c.Int(nullable: false, identity: true),
+                        Title = c.String(unicode: false),
+                        Url = c.String(unicode: false),
+                        ImgUrl = c.String(unicode: false),
+                    })
+                .PrimaryKey(t => t.aID);
+            
+            CreateTable(
                 "dbo.BlogArticle",
                 c => new
                     {
@@ -45,6 +56,7 @@ namespace MyBlog.Model.Migrations
         {
             DropTable("dbo.sysUserInfo");
             DropTable("dbo.BlogArticle");
+            DropTable("dbo.Advertisement");
         }
     }
 }

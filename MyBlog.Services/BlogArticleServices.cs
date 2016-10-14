@@ -17,7 +17,7 @@ namespace MyBlog.Services
         public BlogArticleServices(IBlogArticleRepository iblog)
         {
             this.iblog = iblog;
-            base.baseDal = baseDal;
+            base.baseDal = iblog;
         }
         public BlogViewModels getBlogDetails(int id)
         {

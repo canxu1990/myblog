@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="~/Content/CSS/zui.css" rel="stylesheet" />
+    <link href="~/Content/CSS/zui-theme.css" rel="stylesheet" />
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    <!--导航部分-->
+    @Html.Partial("_NavbarPage")
+    <!--主体内容-->
+    <div class="maincontent">
+        <div class="row">
+            <!--左边主要内容-->
+            <!--右边栏-->
+            <!--主题部分-->
+            
+            <!--右边栏-->
+        </div>
+    </div>
+    <!--主题部分-->
+    <!--底部版权部分-->
+    @Html.Partial("_FooterPage")
+    <script src="~/Scripts/jquery-1.10.2.js"></script>
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script src="~/Content/JS/zui.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.js"></script>
+    <script src="~/Scripts/jquery.unobtrusive-ajax.js"></script>
+    <script>
+        //用于控制导航样式
+        $(function () {
+            var name = '@ViewBag.controllername';
+            $('#' + name).attr("class", "active");
+        })
+    </script>
+    @RenderSection("scripts",false)
+</body>
+</html>

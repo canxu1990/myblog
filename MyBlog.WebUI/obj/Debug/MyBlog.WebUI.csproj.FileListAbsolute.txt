@@ -118,6 +118,10 @@ E:\projects\MyBlog\MyBlog.WebUI\bin\zh-Hans\Microsoft.Owin.Security.MicrosoftAcc
 E:\projects\MyBlog\MyBlog.WebUI\obj\Debug\MyBlog.WebUI.csprojResolveAssemblyReference.cache
 E:\projects\MyBlog\MyBlog.WebUI\obj\Debug\MyBlog.WebUI.dll
 E:\projects\MyBlog\MyBlog.WebUI\obj\Debug\MyBlog.WebUI.pdb
+E:\projects\MyBlog\MyBlog.WebUI\bin\Webdiyer.MvcPager.dll
+E:\projects\MyBlog\MyBlog.WebUI\bin\Webdiyer.MvcPager.xml
+E:\projects\MyBlog\MyBlog.WebUI\bin\zh-CHS\Webdiyer.MvcPager.resources.dll
+E:\projects\MyBlog\MyBlog.WebUI\bin\zh-CHT\Webdiyer.MvcPager.resources.dll
 E:\projects\MyBlog\MyBlog.WebUI\bin\MyBlog.IRepository.dll
 E:\projects\MyBlog\MyBlog.WebUI\bin\AutoMapper.dll
 E:\projects\MyBlog\MyBlog.WebUI\bin\MyBlog.Services.pdb

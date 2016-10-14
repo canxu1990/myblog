@@ -13,7 +13,7 @@ namespace MyBlog.Model.Migrations
         
         string IMigrationMetadata.Id
         {
-            get { return "201610110248437_LogTable"; }
+            get { return "201610140613201_LogTable"; }
         }
         
         string IMigrationMetadata.Source

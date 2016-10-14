@@ -13,11 +13,7 @@ namespace MyBlog.Services
     public class BaseServices<TEntity>: IBaseServices<TEntity> where TEntity:class
     {
         //public IBaseRepository<TEntity> baseDal = new BaseRepository<TEntity>();
-        IBaseRepository<TEntity> baseDal;
-        public BaseServices(IBaseRepository<TEntity> baseDal)
-        {
-            this.baseDal = baseDal;
-        }
+        public IBaseRepository<TEntity> baseDal;
         #region 查询
         /// <summary>
         /// 单表查询

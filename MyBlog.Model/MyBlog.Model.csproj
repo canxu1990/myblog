@@ -61,11 +61,12 @@
   <ItemGroup>
     <Compile Include="Class1.cs" />
     <Compile Include="maps\sysUserInfoMap.cs" />
-    <Compile Include="Migrations\201610110248437_LogTable.cs" />
-    <Compile Include="Migrations\201610110248437_LogTable.Designer.cs">
-      <DependentUpon>201610110248437_LogTable.cs</DependentUpon>
+    <Compile Include="Migrations\201610140613201_LogTable.cs" />
+    <Compile Include="Migrations\201610140613201_LogTable.Designer.cs">
+      <DependentUpon>201610140613201_LogTable.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="models\Advertisement.cs" />
     <Compile Include="models\BlogArticle.cs" />
     <Compile Include="models\sysUserInfo.cs" />
     <Compile Include="MyBlogDB.cs" />
@@ -77,8 +78,8 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201610110248437_LogTable.resx">
-      <DependentUpon>201610110248437_LogTable.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201610140613201_LogTable.resx">
+      <DependentUpon>201610140613201_LogTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
